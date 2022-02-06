@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    background:white;
+    position: sticky;
+    top: 0;
+}
+.l-header{
+    padding-right: 20px;
+}
+.mid-header{
+    display: flex;
+    
+}
+
+.mid-header.searchbar header{
+    border: 1px solid #ccc;
+}
+.rhe{
+    margin-left: 10px;
+}
+.voice-header{
+    margin-top: 20px;
+}
+
+.home1{
+    padding: 10px 20px;
+}
+.sidebar{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+   
+}
+
+.disp{
+    display: grid;
+    grid-template-columns: 0.8fr 4fr;
+
+}
+.link a img{
+    width: 20px;
+    margin-right: 20px;
+}
+.link a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    width:fit-content;
+    margin-top: 20px;
+}
+.link a:first-child{
+    color: red;
+}
+.sidebar hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin-bottom: 20px;
+
+}
+.sidebar h4{
+    font-weight: 50;
+}
+.content .contentimage{
+    width: 80%;
+    height: 200px;
+   
+   margin-left: 50px;   
+}
+.content{
+    margin-left: 30px;
+    width: 100%;
+}
+.content-thumbnail{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+    margin-left: 10px;    
+}
+ 
+.video .videoinfo img{
+    width: 30px;
+   margin-right: 10px;
+    border-radius: 50%;
+}
+.video{
+    margin: 10px;
+}
+.video .videoinfo{
+    align-items: flex-start;
+    margin-top: 10px;
+}
